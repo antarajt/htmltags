@@ -1,0 +1,439 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Html Tags</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <h1 style="text-align: center;">HTML Tag Reference</h1>
+    <div class="cv">
+         <a href="cv/docx.pdf" target="_blank">Download CV</a>
+    </div>
+    
+    <div>
+        <h1>1.This is a comment </h1>
+        <!--This is a Comment-->
+         <h1> 2.Ankor tag </h1>
+         <a href="https://www.w3schools.com/tags/tag_a.asp" target="0"> html tags </a>
+         <h1>3.HTML abbr Tag</h1>
+        <p>Wellcome to <abbr title="COMPUTER SCIENCE">CSC</abbr></p>
+
+        <h1>4.HTML address Tag</h1>
+        <p>
+            <address>
+                antor das <a href="https://mail.google.com/mail/u/1">Mail</a>
+                Visit us at:<br>
+                Example.com<br>
+                Chandpur bangladesh
+            </address>
+        </p>
+        
+        <h1>5.The article element</h1>
+
+        <article>
+        <h2>Google Chrome</h2>
+        <p>Google Chrome is a web browser developed by Google, released in 2008. Chrome is the world's most popular web browser today!</p>
+        </article>
+
+        <article>
+        <h2>Mozilla Firefox</h2>
+        <p>Mozilla Firefox is an open-source web browser developed by Mozilla. Firefox has been the second most popular web browser since January, 2018.</p>
+        </article>
+
+        <h1> 6.The aside element</h1>
+
+        <p>My family and I visited The Epcot center this summer. The weather was nice, and Epcot was amazing! I had a great summer together with my family!</p>
+
+        <aside>
+        <h4>Epcot Center</h4>
+        <p>Epcot is a theme park at Walt Disney World Resort featuring exciting attractions, international pavilions, award-winning fireworks and seasonal special events.</p>
+        </aside>
+
+        <h1>7. The audio element</h1>
+        <p>Click on the play button to play a sound:</p>
+        <audio controls>
+            <source src="audio/horse.ogv" type="audio/ogv">
+            <source src="audio/horse.ogv" type="audio/mpeg">
+            Your browser does not support the audio element.
+        </audio>
+
+        <h1>8.The b element</h1>
+
+        <p>This is normal text - <b>and this is bold text</b>.</p>
+
+        <h1>9.The bdi element</h1>
+
+        <p>In the example below, usernames are shown along with the number of points in a contest. If the bdi element is not supported in the browser, the username of the Arabic user would confuse the text (the bidirectional algorithm would put the colon and the number "90" next to the word "User" rather than next to the word "points").</p>
+
+        <ul>
+        <li>User <bdi>hrefs</bdi>: 60 points</li>
+        <li>User <bdi>jdoe</bdi>: 80 points</li>
+        <li>User <bdi>إيان</bdi>: 90 points</li>
+        </ul>
+
+        <h1>9.The bdo element</h1>
+
+        <p>This paragraph will go left-to-right.</p>  
+        <p><bdo dir="rtl">This paragraph will go right-to-left.</bdo></p>
+        <p><bdo dir="ltr">This paragraph will go right-to-left.</bdo></p> 
+
+        <h1>The blockquote element</h1>
+
+        <p>10.Here is a quote from WWF's website:</p>
+
+        <blockquote >
+        For 50 years, WWF has been protecting the future of nature.
+         The world's leading conservation organization,
+          WWF works in 100 countries and is supported by 1.2 million members in the United States and close to 5 million globally.
+        </blockquote>
+
+        <h1> 11.The br element</h1>
+
+        <p>To force<br> line breaks<br> in a text,<br> use the br<br> element.</p>
+
+        <h1>12.The button Element</h1>
+        <button type="button" onclick="alert('Hello world!')">Click Me!</button>
+ 
+        <h1>13.The canvas element</h1>
+
+        <canvas id="myCanvas">Your browser does not support the canvas tag.</canvas>
+        <script>
+            var c = document.getElementById("myCanvas");
+            var ctx = c.getContext("2d");
+            ctx.fillStyle = "#FF0000";
+            ctx.fillRect(40, 0, 200, 200);
+        </script>
+
+        
+        <h1>14.The caption element</h1>
+        <table>
+            <caption>Monthly savings</caption>
+            <tr>
+                <th>Month</th>
+                <th>Savings</th>
+            </tr>
+            <tr>
+                <td>January</td>
+                <td>$100</td>
+            </tr>
+            <tr>
+                <td>Feburary</td>
+                <td>$50</td>
+            </tr>
+        </table>
+
+        <h1>15.The cite element</h1>
+        <img src="images/picture-1.jpg" alt="desert image"height="277" width="220">
+        <p><cite>The Screem </cite>By Edward Munch . Painted in 1893.</p>
+
+        <h1> 16.The code element</h1>
+
+        <p>The HTML <code>button</code> tag defines a clickable button.</p>
+
+        <p>The CSS <code>background-color</code> property defines the background color of an element.</p>
+        
+        <h1>16.The col or colgroup element</h1>
+        <table>
+            <colgroup>
+                <col span="2" style="background-color: aqua;">
+                <col span="3" style="background-color: blanchedalmond;">
+            </colgroup>
+            <tr>
+                <th>ISBN</th>
+                <th>Title</th>
+                <th>Price</th>
+            </tr>
+            <tr>
+                <td>3476896</td>
+                <td>My first HTML</td>
+                <td>$53</td>
+            </tr>
+            <tr>
+                <td>5869207</td>
+                <td>My first CSS</td>
+                <td>$49</td>
+            </tr>
+        </table>
+
+        <h1>17.The data element</h1>
+
+        <p>The following example displays product names but also associates each name with a product number:</p>
+
+        <ul>
+        <li><data value="21053">Cherry Tomato</data></li>
+        <li><data value="21054">Beef Tomato</data></li>
+        <li><data value="21055">Snack Tomato</data></li>
+        </ul>
+
+        <h1>18.The dl, dd, and dt elements</h1>
+        <p>These three elements ar used to create a description list: </p>
+        <dl>
+            <dt>Coffee</dt>
+            <dd>Black Hot Drink</dd>
+            <dt>Milk</dt>
+            <dd>White Cold Drink</dd>
+        </dl>
+
+        <h1>19.The del element</h1>
+
+        <p>My favorite color is <del>blue</del> <ins>red</ins>!</p>
+        
+        <h1>20.The details element</h1>
+        <details>
+        <summary>Epcot Center</summary>
+        <p>Epcot is a theme park at Walt Disney World Resort featuring exciting attractions,
+        international pavilions,award-winning fireworks and seasonal special events.</p></p>
+        </details>
+
+          
+    </div>
+    <div>
+        <h1 21.>The dfn element</h1>
+        <p><dfn>HTMl</dfn>is the standard markup language for creating web pages.</p>
+        
+        <h1>22.The dialogue element</h1>
+
+        <dialog open>This is an open dialog window</dialog>
+        <p>this is some text.</p>
+        <p>this is some text.</p>
+        <dialog open>this is some text.</dialog>
+        <p>this is some text.</p>
+        
+        <br>
+        <p>not copied</p>
+
+        <h1>23. The Div Element</h1>
+        <div class="div-tag">
+            <h2>This is a heading in a div element</h2>
+            <p>this is some text in a div element</p>
+        </div>
+        <p>this is some text outside the div element</p>
+
+
+        <h1>24.The em element</h1>
+
+        <p>You <em>have</em> to hurry up!</p>
+
+        <p>We <em>cannot</em> live like this.</p>
+        
+        <h1> 25.The footer element</h1>
+
+        <footer>
+        <p>Author: Hege Refsnes<br>
+        <a href="mailto:hege@example.com">hege@example.com</a></p>
+        </footer>
+
+        <h1> 26.The form element</h1>
+        <form action="">
+            <label for="fname">First Name</label>
+            <input type="text"id="fname"><br><br>
+            <label for="lname">Last Name</label>
+            <input type="text"id="lname"><br><br>
+
+            <input type="submit"value="Submit">
+
+        </form>
+
+        
+        <h1> 27. HTML h1 to h6 Tags<h1> 
+
+            <h1>This is heading 1</h1>
+            <h2>This is heading 2</h2>
+            <h3>This is heading 3</h3>
+            <h4>This is heading 4</h4>
+            <h5>This is heading 5</h5>
+            <h6>This is heading 6</h6>
+
+        <h1>28.The Main Languages of the Web hr tag</h1>
+
+            <p>HTML is the standard markup language for creating Web pages. HTML describes the structure of a Web p the content.</p>
+            <hr>
+            <p>CSS is a langul at once.</p>
+            <hr>
+
+        <h1>29.The i element</h1>
+
+            <p><i>Lorem ipsum</i> is the most popular filler text in history.</p>
+            
+            <p>The <i>RMS Titanic</i>, a luxury steamship, sank on April 15, 1912 after striking an iceberg.</p>
+
+        <h1>30.The img element</h1>
+
+            <img src="images/picture-1.jpg" alt="Girl in a jacket" width="500" height="600">
+
+        
+        <h1>31.The ins element</h1>
+
+            <p>My favorite color is <del>blue</del> <ins>red</ins>!</p>
+        
+        <h1>32.The kbd element</h1>
+
+            <p>Press <kbd>Ctrl</kbd> + <kbd>C</kbd> to copy text (Windows).</p>
+            
+            <p>Press <kbd>Cmd</kbd> + <kbd>C</kbd> to copy text (Mac OS).</p>
+        
+        <h1>32.The legend element</h1>
+        <form action="">
+            <fieldset>
+                <legend>Personalia:</legend>
+                <label for="fname">First Name</label>
+                <input type="text" id="fname"><br><br>
+
+                <label for="lname">Last Name</label>
+                <input type="text" name="lname" id="lname"><br><br>
+
+                <label for="email">Email</label>
+                <input type="email" id="email"><br><br>
+
+                <label for="birthday">Birthday</label>
+                <input type="date" id="birthday"><br><br>
+
+                <input type="submit" value="Submit">
+
+                
+            </fieldset>
+        </form>
+
+        <h1>33. The ol and ul elements</h1>
+            <p>the ol element defines an ordered list: </p>
+            <ol>
+                <li>Coffee</li>
+                <li>Tea</li>
+                <li>Milk</li>
+            </ol>
+            <p>The ul element defines an unordered list:</p>
+            <ul>
+                <li>Coffee</li>
+                <li>tea</li>
+                <li>Milk</li>
+            </ul>
+        
+        <h1>34.The mark element</h1>
+
+            <p>Do not forget to buy <mark>milk</mark> today.</p>
+        
+        <h1>35. The Meater element</h1>
+        <p>The meater element is used to display a guage: </p>
+        
+        <label for="disk_c">Disk usage C:</label>
+        <meter id="disk_c" value="2" min="0" max="10">2 out of 10</meter><br>
+
+        <label for="disc_d">Disc usage D:</label>
+        <meter id="disk_c" value="0.6" >60%</meter>
+        
+        <h1>36.The nav element</h1>
+            <p>The nav element defines a set of nevigation links: </p>
+        <nav>
+            <a href="#">HTML</a>
+            <a href="#">CSS</a>
+            <a href="#">JavaScript</a>
+            <a href="#">Python</a>
+        </nav>
+
+         <h1>37. The optgroup element</h1>
+         <p>the optgroup tag is used to group related opions in a drop-down list:</p>
+         <form action="">
+             <label for="cars">Choose a car:</label>
+             <select name="cars" id="cars">
+                 <optgroup label="Swedish Cars">
+                     <option value="volvo">Volvo</option>
+                     <option value="saab">Saab</option>
+                 </optgroup>
+
+                 <optgroup label="German Cars">
+                     <option value="mercedes">Marcedes</option>
+                     <option value="audi">Audi</option>
+
+                 </optgroup>
+             </select>
+             <br><br>
+             <input type="submit" value="Submit">
+         </form>    
+        
+         <h1>38.The option element</h1>
+
+            <label for="cars">Choose a car:</label>
+
+                <select id="cars">
+                <option value="volvo">Volvo</option>
+                <option value="saab">Saab</option>
+                <option value="opel">Opel</option>
+                <option value="audi">Audi</option>
+                </select>
+         
+        <h1>39.The param element</h1>
+
+            <object data="horse.wav">
+            <param name="autoplay" value="true">
+            </object>
+         
+        <h1>40.The pre element</h1>
+
+            <pre>
+            Text in a pre element
+            is displayed in a fixed-width
+            font, and it preserves
+            both      spaces and
+            line breaks
+            </pre>
+        
+        <h1>41. The Progress element</h1>
+            <label for="file">Downloading Progress: </label>
+            <Progress id="file" value="32" max="100">32%</Progress>
+        
+        <h1>42.The q element</h1>
+
+            <p>WWF's goal is to: 
+            <q>Build a future where people live in harmony with nature.</q>
+            We hope they succeed.</p>
+
+        <h1>43.The s element</h1>
+            <p><s>Only 50 tickets left!</s></p>
+            <p>SOLD OUT</p>
+        
+        <h1>44. The samp element</h1>
+            <p>Message form my computer:</p>
+            <p><samp>File not found. <br> Press F1 to continue
+            </samp></p>
+        
+        <h1>45.The small element</h1>
+
+            <p>This is some normal text.</p>
+            <p><small>This is some smaller text.</small></p>
+
+        <h1>46. The span element</h1>
+            <p>My mother has <span style="color:blue; font-weight:bold">Blue</span>eyes and my father has <span style="color: royalblue; font-weight: bold;">Dark green</span></p>
+
+        <h1>47.The strong element</h1>
+
+            <p>This text is normal.</p>
+            
+            <p><strong>This text is important!</strong></p>
+
+        <h1>48. the sub and sup element</h1>
+            <p>this text contains <sub>subscript</sub>text.</p>
+            <p>This text contains <sup>superscript</sup>text.</p>
+        
+        <h1>49. the svg element</h1>
+            <svg width="100" height="100" >
+                <circle cx="50" cy="50" r="40" stroke="green" stroke-width="4" fill="yellow"/>
+
+                Sorry, your browser does not support inline SVG.
+            </svg>
+
+        <h1>50.The textarea element</h1>
+            <form action="">
+                <label for="w3review">Review of w3schools</label>
+                <textarea name="w3review" id="w3review" cols="50" rows="4">
+                At w3schools.com you will learn how to make a website. They offer free tutorials in all web development technologies.
+                </textarea>
+            </form>
+
+
+
+    </div>
+</body>
+</html>

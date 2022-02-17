@@ -1,0 +1,31 @@
+.cv{
+   text-align: center;
+   border: dotted;
+   background-color: bisque;
+   font-weight: bold;
+   text-decoration: ;
+   
+}
+.cv a{
+    font-size: 30px;
+    text-decoration: none;
+    color: black;
+}
+
+h1{
+    background-color: bisque;
+    color: black;
+    text-decoration: underline;
+}
+p{
+    font-weight: ;
+    font-size: 25px;
+}
+table,td,th{
+    border: 1px solid black;
+}
+.div-tag{
+    border: 5px outset red;
+    background-color: bisque;
+    text-align: center;
+}
